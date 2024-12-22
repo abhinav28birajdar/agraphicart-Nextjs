@@ -5,11 +5,12 @@ export default function DeveloperLanding() {
   const currentYear = new Date().getFullYear()
   
   const socialIcons = [
-    { name: 'Twitter', icon: 'ttt.svg', href: '' },
+    { name: 'Twitter', icon: 'twitter-x.svg', href: '' },
     { name: 'Instagram', icon: 'instagram.svg', href: '#' },
     { name: 'GitHub', icon: 'github.svg', href: '#' },
-    { name: 'Discord', icon: 'discord.svg', href: '#' },
-    { name: 'Reddit', icon: 'reddit.svg', href: '#' },
+    // { name: 'Discord', icon: 'discord.svg', href: '#' },
+    // { name: 'Linkdin', icon: 'reddit.svg', href: '#' },
+    { name: 'Reddit', icon: 'linkedin.svg', href: '#' },
     { name: 'Behance', icon: 'behance.svg', href: '' },
     { name: 'Facebook', icon: 'facebook.svg', href: '#' },
   ]
@@ -44,7 +45,7 @@ export default function DeveloperLanding() {
       </main>
 
       {/* Footer Section */}
-      <footer className="bg-white/80 backdrop-blur-sm shadow-md py-12">
+      <footer className="bg-purple backdrop-blur-sm shadow-md   py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between max-w-3xl mx-auto">
             <div className="mb-6 md:mb-0">
