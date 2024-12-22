@@ -5,12 +5,12 @@ export default function DeveloperLanding() {
   const currentYear = new Date().getFullYear()
   
   const socialIcons = [
-    { name: 'Twitter', icon: 'twitter-x.svg', href: '' },
-    { name: 'Instagram', icon: 'instagram.svg', href: '#' },
-    { name: 'GitHub', icon: 'github.svg', href: '#' },
-     { name: 'Linkdin', icon: 'linkedin.svg', href: '#' },
-    { name: 'Facebook', icon: 'facebook.svg', href: '#' },
-    { name: 'Behance', icon: 'behance.svg', href: '' },
+    { name: 'Twitter', icon: 'twitter-x.svg', href: 'https://x.com/abhi28birajdar' },
+    { name: 'Instagram', icon: 'instagram.svg', href: 'https://www.instagram.com/abhiinav_28/profilecard/?igsh=bnJ0ODAzbHlydmxq' },
+    { name: 'GitHub', icon: 'github.svg', href: 'https://github.com/abhinav28birajdar' },
+     { name: 'Linkdin', icon: 'linkedin.svg', href: 'https://www.linkedin.com/in/abhinav28birajdar/' },
+    { name: 'Facebook', icon: 'facebook.svg', href: 'https://www.facebook.com/abhinav28birajdar' },
+    { name: 'Behance', icon: 'behance.svg', href: 'https://www.behance.net/abhinavv10' },
   ]
 
   return (
