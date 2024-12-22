@@ -10,7 +10,7 @@ export default function DeveloperLanding() {
     { name: 'GitHub', icon: 'github.svg', href: '#' },
     // { name: 'Discord', icon: 'discord.svg', href: '#' },
     // { name: 'Linkdin', icon: 'reddit.svg', href: '#' },
-    { name: 'Reddit', icon: 'linkedin.svg', href: '#' },
+    { name: 'Reddit', icon: '/public/linkedin.svg', href: '#' },
     { name: 'Behance', icon: 'behance.svg', href: '' },
     { name: 'Facebook', icon: 'facebook.svg', href: '#' },
   ]
