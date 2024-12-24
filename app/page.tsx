@@ -5,6 +5,7 @@ import Hero from "./component/Hero";
 import { FloatingNav } from "@/app/component/ui/FloatingNavbar";
 import  Grid1  from "./component/Grid1";
 import MyWork from "./component/MyWork";
+// import {ProjectCard} from './component/ProjectCard'
 // import Clients from "./component/Clients";
 import { Contact } from "lucide-react";
 import CopyrightSection from './component/CopyrightSection'
@@ -19,6 +20,7 @@ const Home = () => {
       <MyWork />
       <Contact />
 <CopyrightSection />
+{/* <ProjectCard  /> */}
       </div>
     </main>
   );
